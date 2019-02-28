@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\chrisj\Documents\My Projects\FlareZenPub"
+  Port=""
+  ViewUrl=""
+  Type="scm"
+  ProviderType="Git"
+  Database="C:\Users\chrisj\Documents\My Projects\FlareZenPub\.git"
+  DatabaseRoot="C:\Users\chrisj\Documents\My Projects\FlareZenPub"
+  PushToRemote="false"></CatapultDestination>

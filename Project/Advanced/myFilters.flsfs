@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="My test filter"
+    Order="0"
+    Concepts="Release Notes"></SearchFilter>
+</CatapultSearchFilterSet>

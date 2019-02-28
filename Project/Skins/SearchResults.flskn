@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Search Results skin"
+  ComponentType="SearchResults">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Search Heading">
+        <Properties>
+          <Property
+            Name="Color">#f08080</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

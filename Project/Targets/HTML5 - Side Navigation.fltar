@@ -11,12 +11,14 @@
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   ExcludeUnreferencedContent="true"
   TopNavTocPath="true"
-  Skin="/Project/Skins/HTML5 - Side Navigation Skin.flskn"
+  Skin="/Project/Skins/HTML5-Top.flskn"
   ReplaceSpacesWithUnderscores="true"
   DefaultUrl="/Content/Home.htm"
   MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
   MasterStylesheetOverride="false"
-  TopicToolbarSkin="/Project/Skins/Toolbar.flskn">
+  TopicToolbarSkin="/Project/Skins/Toolbar.flskn"
+  OutputFile="index.html"
+  SearchResultsSkin="/Project/Skins/SearchResults.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -24,6 +26,7 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
+      Link="/Project/Destinations/FlareZenPub.fldes"
       Publish="true" />
   </Destinations>
 </CatapultTarget>
