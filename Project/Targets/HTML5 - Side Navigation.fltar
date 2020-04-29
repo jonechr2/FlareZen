@@ -4,21 +4,22 @@
   Comment="New Target"
   Type="WebHelp2"
   Destinations=""
-  GlossaryTermConversion="marked"
+  GlossaryTermConversion="first"
   MasterToc="/Project/TOCs/SideNav.fltoc"
-  ConditionTagExpression=""
+  ConditionTagExpression="exclude[NewSet.PrintOnly] "
   EquationsOutputType="PNG"
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
-  ExcludeUnreferencedContent="true"
+  ExcludeUnreferencedContent="false"
   TopNavTocPath="true"
-  Skin="/Project/Skins/HTML5-Top.flskn"
+  Skin="/Project/Skins/HTML5 - Side Navigation Skin.flskn"
   ReplaceSpacesWithUnderscores="true"
   DefaultUrl="/Content/Home.htm"
-  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  MasterStylesheet="/Content/Resources/Stylesheets/myStyles.css"
   MasterStylesheetOverride="false"
   TopicToolbarSkin="/Project/Skins/Toolbar.flskn"
   OutputFile="index.html"
-  SearchResultsSkin="/Project/Skins/SearchResults.flskn">
+  SearchResultsSkin="/Project/Skins/SearchResults.flskn"
+  MinifyJavaScript="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -29,4 +30,8 @@
       Link="/Project/Destinations/FlareZenPub.fldes"
       Publish="true" />
   </Destinations>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
 </CatapultTarget>
